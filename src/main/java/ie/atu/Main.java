@@ -32,5 +32,17 @@ public class Main {
         System.out.println("Enter student course: ");
         String course2 = scanner.nextLine();
         Student student3 = new Student(name2, email2, course2);
+
+        System.out.println("Name: " + student1.getName());
+        System.out.println("Email " + student1.getEmail());
+        System.out.println("Course " + student1.getCourse());
+
+        System.out.println("Name: " + student2.getName());
+        System.out.println("Email " + student2.getEmail());
+        System.out.println("Course " + student2.getCourse());
+
+        System.out.println("Name: " + student3.getName());
+        System.out.println("Email " + student3.getEmail());
+        System.out.println("Course " + student3.getCourse());
     }
 }
