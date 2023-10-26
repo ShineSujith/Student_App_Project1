@@ -28,4 +28,16 @@ public class Student {
     public void setCourse(String course) {
         this.Course = course;
     }
+
+    public String getName() {
+        return Name;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public String getCourse() {
+        return Course;
+    }
 }
