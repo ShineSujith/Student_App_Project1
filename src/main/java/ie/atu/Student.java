@@ -1,8 +1,23 @@
 package ie.atu;
 
-import java.util.Scanner;
 public class Student {
     private String Name;
     private String Email;
-    private int Age;
+    private String Course;
+
+    public Student() {
+        this.Name = "";
+        this.Email = "";
+        this.Course = "";
+    }
+
+    public Student(String name, String email, String course) {
+        this.Name = name;
+        this.Email = email;
+        this.Course = course;
+    }
+
+    public void setName(String Name) {
+        this.Name = Name;
+    }
 }
