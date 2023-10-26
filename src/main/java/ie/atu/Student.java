@@ -17,7 +17,15 @@ public class Student {
         this.Course = course;
     }
 
-    public void setName(String Name) {
-        this.Name = Name;
+    public void setName(String name) {
+        this.Name = name;
+    }
+
+    public void setEmail(String email) {
+        this.Email = email;
+    }
+
+    public void setCourse(String course) {
+        this.Course = course;
     }
 }
