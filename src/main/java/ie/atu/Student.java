@@ -17,6 +17,10 @@ public class Student {
         this.Course = course;
     }
 
+    public Student(String name) {
+        this.Name = name;
+    }
+
     public void setName(String name) {
         this.Name = name;
     }
