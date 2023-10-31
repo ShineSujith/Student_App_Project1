@@ -18,23 +18,20 @@ public class Main {
 
         //student details are set using a constructor and setters
         System.out.println("Enter student name: ");
+        Student student2 = new Student(scanner.nextLine()); //constructor is used to set the name
+        System.out.println("Enter student email: ");
+        student2.setEmail(scanner.nextLine());
+        System.out.println("Enter student course: ");
+        student2.setCourse(scanner.nextLine());
+
+        //student details are set using a constructor
+        System.out.println("Enter student name: ");
         String name1 = scanner.nextLine();
         System.out.println("Enter student email: ");
         String email1 = scanner.nextLine();
         System.out.println("Enter student course: ");
         String course1 = scanner.nextLine();
-        Student student2 = new Student(name1); //constructor is used to set the name
-        student2.setEmail(email1);
-        student2.setCourse(course1);
-
-        //student details are set using a constructor
-        System.out.println("Enter student name: ");
-        String name2 = scanner.nextLine();
-        System.out.println("Enter student email: ");
-        String email2 = scanner.nextLine();
-        System.out.println("Enter student course: ");
-        String course2 = scanner.nextLine();
-        Student student3 = new Student(name2, email2, course2);
+        Student student3 = new Student(name1, email1, course1);
 
         //student details are printed using getters
         System.out.println("\nStudent details");
